@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace Calculadora
 {
     class Program
@@ -14,9 +15,10 @@ namespace Calculadora
                 {
                     Console.Clear();
 
-                    Console.WriteLine("*----Calculadora One Piece----*\n");
+                    Console.WriteLine("<----Calculadora One Piece---->\n");
 
-                    Console.WriteLine("<------Operações------>");
+                    Console.WriteLine("<----Menu Operações---->");
+                    
                     Console.WriteLine("Somar: +");
                     Console.WriteLine("Subtrair: -");
                     Console.WriteLine("Multiplicar: *");
@@ -24,8 +26,8 @@ namespace Calculadora
                     Console.WriteLine("Porcentagem: P");
                     Console.WriteLine("Radiciação (Raiz Quadrada): R");
                     Console.WriteLine("Exponencial: EX");
-                    Console.WriteLine("Créditos: c\n");
-                    Console.Write("Escolha uma das opções acima: ");
+                    Console.WriteLine("Creditos: c\n");
+                    Console.Write("Escolha uma das opções Acima: ");
                     escolha = Console.ReadLine().ToUpper();
 
                     if (escolha == "+")

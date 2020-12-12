@@ -15,16 +15,16 @@ Creditos
 
 ## _Screenshot_
 
---- colar foto ---
+![Tela do programa](tela.png)
 
 ## _Download_
 
 Baixe o arquivo. Descompacte onde desejar.
 
-[🔥 Download  do arquivo .zip](link para o .zip)
+[🔥 Download  do arquivo .zip](dist/Calculadora-.zip)
 
 ```
----- Comando Executar Programa ----
+dotnet Calculadora-.dll
 ```
 
 Ou, se estiver no Windowns, pode dar  um duplo clique no icone do programa.

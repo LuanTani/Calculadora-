@@ -3,7 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>Calculadora.ico</ApplicationIcon>
     <RootNamespace>Calculadora_</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="figgle" Version="0.4.0" />
+  </ItemGroup>
 
 </Project>
